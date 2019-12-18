@@ -1,0 +1,18 @@
+body {
+  background-image: url("background.jpg")
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  border: 1px;
+  border-style: solid;
+}
+
+h3 {
+  color: blue;
+}
+
+a {
+  padding: 25px;
+}
