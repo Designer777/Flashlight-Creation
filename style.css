@@ -1,5 +1,6 @@
 body {
-  background-image: url("background.jpg")
+  background-size: cover;
+  background-image: url("background.jpg");
 }
 
 h1 {
@@ -15,4 +16,5 @@ h3 {
 
 a {
   padding: 25px;
+  font-size: 15px;
 }
