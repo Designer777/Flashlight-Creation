@@ -29,6 +29,14 @@ a {
   padding: 10px;
 }
 
+.column2 {
+  float: left;
+  width: 38%;
+  padding: 10px;
+}
+
+}
+
 .row {
   content: "";
   display: table;
