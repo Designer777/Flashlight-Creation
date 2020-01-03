@@ -3,13 +3,6 @@ body {
   background-image: url("background.jpg");
 }
 
-div {
-  max-width: 768px;
-  max-height: 1024px;
-  margin: auto;
-  display: block;
-}
-
 header {
   background-color: lightblue;
 }
