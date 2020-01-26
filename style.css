@@ -1,6 +1,7 @@
 body {
   background-size: cover;
   background-image: url("background.jpg");
+  font-family: Georgia;
 }
 
 header {
@@ -75,6 +76,6 @@ table, th, td {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: pink;
   color: white;
 }
