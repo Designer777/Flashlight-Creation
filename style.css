@@ -23,24 +23,33 @@ a {
   font-size: 15px;
 }
 
+.row {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 .column {
-  float: left;
-  width: 32%;
-  padding: 10px;
+  padding: 5px;
+  width: 30%;
+  height: 425 px;
+  margin-top: 10px;
+  color: black;
 }
 
 .column2 {
   float: left;
   width: 38%;
   padding: 10px;
-}
-
-}
-
-.row {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 table, th, td {
