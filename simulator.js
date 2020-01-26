@@ -45,6 +45,9 @@ theta_2 = null;
 function calculateTemperatureDifference() {
   theta_1 = (-b + (b^2 - 4*a*voltage)^0.5)/(2*a)
   theta_2 = (-b - (b^2 - 4*a*voltage)^0.5)/(2*a)
+  if (theta_1 < 0) {
+    theta_1 = 0;
+  }
   temperatureDifferenceDisplay.elt.innerText = 'Temperature Difference: '+theta_1;
 }
 
